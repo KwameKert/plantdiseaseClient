@@ -2,7 +2,7 @@
   <div id="app" >
     <Header />
     <div class="container">
-        <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos repudiandae libero debitis incidunt consequatur! Placeat deserunt dicta, modi quidem sapiente, amet dolore numquam hic architecto et qui ab assumenda eligendi.</p>
+        <p class="lead">This is a plant detection disease system capable of suggesting remedies to the various diseases. The model is trained with a Convolution Neural Network.</p>
         <Plant />
     </div>
   </div>
