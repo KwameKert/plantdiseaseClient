@@ -4,7 +4,7 @@
       <div class="container">
     <b-navbar-brand tag="h1" class="mb-0">Plant Lab</b-navbar-brand>
     <b-navbar-nav>
-      <b-nav-item href="#">PlantLab</b-nav-item>
+    
 
 
       <b-nav-item-dropdown text="User" right>
@@ -31,5 +31,9 @@ export default {
 </script>
 
 <style>
+
+    b-navbar{
+        height: 40px;
+    }
 
 </style>
