@@ -13,7 +13,6 @@
                 <b-button variant="primary" class="mr-2" @click.prevent="search"><b-icon-search></b-icon-search>Detect Disease</b-button>
             <b-button variant="secondary"  @click="clearField" ><b-icon-trash></b-icon-trash>Clear</b-button>
             </div>
-           
       </div>
       
   </div>
@@ -62,7 +61,6 @@ export default {
             this.file = null
         },
         previewImage: function(event) {
-           
             var input = event.target;
             if (input.files && input.files[0]) {
                 var reader = new FileReader();
@@ -82,8 +80,6 @@ export default {
 
         },
         search(){
-         
-    
             axios.post('http://localhost:5000/', this.plantData ).then(response => {
                 let res = response.data
                 this.response.plant = res.plant
