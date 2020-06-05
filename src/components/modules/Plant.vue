@@ -1,6 +1,6 @@
 <template>
 <div>
-  <div class="row">
+  <div class="row mt-5">
       <div class="col-md-12 col-sm-12 col-lg-12">
                <b-form-file
             v-model="file"

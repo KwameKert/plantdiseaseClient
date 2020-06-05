@@ -9,7 +9,8 @@ import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 
 
 const router = new VueRouter({
-  routes
+  routes,
+  mode:'history'
   });
   
 // Install BootstrapVue
