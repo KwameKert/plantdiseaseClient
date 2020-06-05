@@ -1,7 +1,8 @@
 <template>
   <div id="app" >
-
-    <Login />
+ 
+    <router-view></router-view>
+    <!-- <Login /> -->
 
     <!-- <Header />
     <div class="container">
@@ -12,17 +13,13 @@
 </template>
 
 <script>
-//import HelloWorld from './components/HelloWorld.vue'
-// import Header from './components/Header';
-// import Plant from './components/Plant';
-import Login from './components/Login';
 
 export default {
   name: 'App',
   components: {
     // Header,
     // Plant,
-    Login
+    //Login
   }
 }
 </script>
