@@ -4,7 +4,7 @@
             <div class="col-3">
                 <div class="card">
                     <div class="card-body">
-                        <img src="assets/img/leaf.svg" alt="">
+                        <img src="@/assets/img/leaf.svg" alt="">
                     </div>
                 </div>
             </div>

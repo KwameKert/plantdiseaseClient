@@ -3,16 +3,25 @@
  
 <div class="bg-light border-right" id="sidebar-wrapper">
      <h4 class="text-center py-3">Plant Lab</h4>
+
+      <div class="row " >
+        <div class="col-md-6 "  style="margin-left: 70px">
+            <img src="@/assets/img/blue.jpg" alt="skuulba admin" class="rounded-circle" width="100px" height="100px" >
+            <b class="text-bold ml-1">Administrator</b>
+        </div>
+        
+    </div>
+    
       <div class="list-group list-group-flush">
         <router-link  class="list-group-item list-group-item-action bg-light" to="/dashboard">
-         <b-icon icon="house-door"></b-icon>  Dashboard
+         <b-icon icon="house-door" class="mr-2"></b-icon>  Dashboard
         </router-link>
      
         <a href="#" class="list-group-item list-group-item-action bg-light">
-          <b-icon icon="search"></b-icon>
+          <b-icon icon="search" class="mr-2"></b-icon>
           Dignose Plant</a>
         <a href="#" class="list-group-item list-group-item-action bg-light">
-          <b-icon icon="list-task"></b-icon>
+          <b-icon icon="list-task" class="mr-2"></b-icon>
           Plant Diseases</a>
       </div>
     </div>  
