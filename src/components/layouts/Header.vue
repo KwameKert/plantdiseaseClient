@@ -1,6 +1,6 @@
 <template>
     <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+       <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
         <button class="btn btn-primary" id="menu-toggle" @click="toggleMenu">Toggle Menu</button>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
@@ -29,19 +29,8 @@
           </ul>
         </div>
       </nav>
-  <!-- <b-navbar type="dark" variant="dark">
-      <div class="container">
-        <b-navbar-brand tag="h1" class="mb-0">Plant Lab</b-navbar-brand> <b-navbar-nav>
-    
 
-      <b-nav-item-dropdown text="User" right>
-        <b-dropdown-item href="#">Account</b-dropdown-item>
-        <b-dropdown-item href="#">Settings</b-dropdown-item>
-      </b-nav-item-dropdown>
-    </b-navbar-nav>
-      </div>
-    
-  </b-navbar> -->
+
 </div>
 </template>
 
@@ -52,6 +41,13 @@ export default {
         return {
 
         }
+    },
+    methods: {
+      toggleMenu(){
+        this.$emit('toggleMenu')
+
+      }
+        
     }
 
 }
