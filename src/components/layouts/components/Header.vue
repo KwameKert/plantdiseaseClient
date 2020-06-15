@@ -3,8 +3,8 @@
        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
         
 
-    <b-button size="sm" variant="outline" >
-      <b-icon icon="list" @click="toggleMenu"></b-icon>
+    <b-button size="sm" variant="outline" @click="toggleMenu" >
+      <b-icon icon="list" ></b-icon>
     </b-button>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
