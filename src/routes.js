@@ -4,6 +4,7 @@ import Auth from './components/layouts/Auth';
 import Default from './components/layouts/Default';
 import Test from './components/layouts/Test';
 import Dashboard from './components/views/Dashboard';
+import PlantList from './components/views/PlantList';
 
 export const routes = [
     {   path: '', 
@@ -18,6 +19,7 @@ export const routes = [
         children: [
             {path: '/plant', component:Plant},
             {path: '/dashboard', component:Dashboard},
+            {path: '/plant-list', component:PlantList},
         ]
     },
     {

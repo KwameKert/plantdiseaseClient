@@ -10,8 +10,8 @@
             drop-placeholder="Drop file here..."
             ></b-form-file>
             <div class="text-center my-3">
-                <b-button variant="primary" class="mr-2" @click.prevent="search"><b-icon-search></b-icon-search>Detect Disease</b-button>
-            <b-button variant="secondary"  @click="clearField" ><b-icon-trash></b-icon-trash>Clear</b-button>
+                <b-button variant="primary" class="mr-2" @click.prevent="search"><b-icon-search class="mr-2"></b-icon-search>Detect Disease</b-button>
+            <b-button variant="secondary"  @click="clearField" ><b-icon-trash class="mr-2"></b-icon-trash>Clear</b-button>
             </div>
       </div>
       

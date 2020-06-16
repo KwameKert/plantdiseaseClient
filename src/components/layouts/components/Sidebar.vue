@@ -16,13 +16,16 @@
         <router-link  class="list-group-item list-group-item-action bg-light" to="/dashboard">
          <b-icon icon="house-door" class="mr-2"></b-icon>  Dashboard
         </router-link>
+
+        <router-link  class="list-group-item list-group-item-action bg-light" to="/plant">
+          <b-icon icon="search" class="mr-2"></b-icon> Dignose Plant
+        </router-link>
+
+        <router-link  class="list-group-item list-group-item-action bg-light" to="/plant-list">
+          <b-icon icon="list-task" class="mr-2"></b-icon> Plant Disease Plant
+        </router-link>
      
-        <a href="#" class="list-group-item list-group-item-action bg-light">
-          <b-icon icon="search" class="mr-2"></b-icon>
-          Dignose Plant</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">
-          <b-icon icon="list-task" class="mr-2"></b-icon>
-          Plant Diseases</a>
+
       </div>
     </div>  
 </div>
