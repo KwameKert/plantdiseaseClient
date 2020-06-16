@@ -38,7 +38,9 @@ export default {
     methods: {  
         submitForm: function(form){
             let loginForm = JSON.parse(JSON.stringify(form))
-            console.log(loginForm)
+            if( loginForm.username === 'admin' && loginForm.password === 'password'){
+                this.$router.push({path: '/dashboard'})
+            }
         }
     }
 }
