@@ -6,7 +6,7 @@
 
       <div class="row " >
         <div class="col-md-6 "  style="margin-left: 70px">
-            <img src="@/assets/img/blue.jpg" alt="skuulba admin" class="rounded-circle" width="100px" height="100px" >
+            <img src="@/assets/img/blue.jpg" alt="plant admin" class="rounded-circle" width="100px" height="100px" >
             <b class="text-bold ml-1">Administrator</b>
         </div>
         
