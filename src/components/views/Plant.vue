@@ -31,7 +31,7 @@
                             <p class="font-italic">{{response.status}}</p>
                       </div>
                       <div class="col-8">
-                            <h4>Description</h4>
+                            <h4>Remedy</h4>
                             <p class="lead">{{response.remedy}}</p>
                       </div>
                   </div>

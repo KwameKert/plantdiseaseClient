@@ -10,7 +10,22 @@
                             </div>
                             <div class="col-9 text-center">
                                 <p class="lead">No. Plants</p>
-                                <h4>38</h4>
+                                <h4>13</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-3">
+                        <img src="@/assets/img/fungus.svg"  height="60px" alt="">
+                            </div>
+                            <div class="col-9 text-center">
+                                <p class="lead">No. Diseases</p>
+                                <h4>25</h4>
                             </div>
                         </div>
                     </div>
@@ -25,7 +40,7 @@
                             </div>
                             <div class="col-9 text-center">
                                 <p class="lead">No. Remedies</p>
-                                <h4>38</h4>
+                                <h4>23</h4>
                             </div>
                         </div>
                     </div>
@@ -40,7 +55,7 @@
                             </div>
                             <div class="col-9 text-center">
                                 <p class="lead">No. Users</p>
-                                <h4>4</h4>
+                                <h4>1</h4>
                             </div>
                         </div>
                     </div>
