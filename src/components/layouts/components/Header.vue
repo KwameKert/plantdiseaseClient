@@ -1,6 +1,6 @@
 <template>
     <div>
-       <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+       <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom  ">
         
 
     <b-button size="sm" variant="outline" @click="toggleMenu" >
@@ -52,5 +52,9 @@ export default {
     b-navbar{
         height: 40px;
     }
-
+    .sticky{
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+   }
 </style>

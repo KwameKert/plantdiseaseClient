@@ -1,7 +1,7 @@
 <template>
 <div>
  
-<div class="bg-light border-right" id="sidebar-wrapper">
+<div class="bg-light border-right " id="sidebar-wrapper">
      <h4 class="text-center py-3">Plant Lab</h4>
 
       <div class="row " >
@@ -41,5 +41,10 @@ export default {
 </script>
 
 <style>
+
+.sticky{
+  position: fixed !important;
+  background-color:red !important;
+}
 
 </style>

@@ -10,7 +10,7 @@
             drop-placeholder="Drop file here..."
             ></b-form-file>
             <div class="text-center my-3">
-                <b-button variant="primary" class="mr-2" @click.prevent="search"><b-icon-search class="mr-2"></b-icon-search>Detect Disease</b-button>
+                <b-button variant="primary" class="mr-2" @click.prevent="search"><b-icon-search class="mr-2" ></b-icon-search>Detect Disease</b-button>
             <b-button variant="secondary"  @click="clearField" ><b-icon-trash class="mr-2"></b-icon-trash>Clear</b-button>
             </div>
       </div>
@@ -30,7 +30,7 @@
                 <div class="col-md-6 col-sm-6 col-lg-">
                     <p><b>Plant:  {{response.plant}} </b></p>
                     <p><b>Status:  {{response.status}} </b></p>
-                    <p><b>Remedies: </b></p>
+                    <p><b>Remedies: {{response.remedy}} </b></p>
                 </div>
             </div>
           
@@ -83,8 +83,9 @@ export default {
         search(){
             axios.post('http://localhost:5000/', this.plantData ).then(response => {
                 let res = response.data
-                this.response.plant = res.plant
+                this.response.plant = res.plant;
                 this.response.status = res.status;
+                this.response.remedy = res.remedy;
                 
             }, error=>{
                 console.error(error)
