@@ -1,5 +1,8 @@
 <template>
-    <router-view></router-view>
+<div >
+ <router-view></router-view>
+</div>
+   
 </template>
 
 
@@ -9,3 +12,9 @@ export default {
     name: 'Auth'
 }
 </script>
+<style >
+    body{
+    overflow: hidden !important;
+ 
+}
+</style>
